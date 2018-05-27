@@ -1,0 +1,24 @@
+testinfo:
+    - id: test003
+      title: 测试账号密码无输入时登录
+      info: 打开app
+testcase:
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/editText
+      find_type: id
+      operate_type: set_value
+      msg: " "
+      info: 不输入账号
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/editText2
+      find_type: id
+      operate_type: set_value
+      msg: " "
+      info: 不输入密码
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/button
+      find_type: id
+      operate_type: click
+      info: 点击提交按钮
+check:
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/button
+      find_type: id
+      check: default_check
+      info: 登录按钮依然存在，说明未登录成功

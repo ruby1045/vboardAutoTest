@@ -1,0 +1,22 @@
+testinfo:
+    - id: test005
+      title: 加入不存在或错误的会议
+      info: 打开加入会议界面
+testcase:
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/idEt
+      find_type: id
+      operate_type: set_value
+      msg: "1108"
+      info: 输入会议ID
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/button
+      find_type: id
+      operate_type: click
+      info: 点击加入会议按钮
+check:
+    - element_info: android.widget.TextView
+      find_type: class_name
+      index: 7
+      operate_type: get_value
+      check: text_check
+      msg: 会议号不存在(1012)
+      info: 会议号错误加入不成功

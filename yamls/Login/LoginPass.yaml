@@ -1,0 +1,25 @@
+testinfo:
+    - id: test001
+      title: 测试登录成功
+      info: 打开app
+testcase:
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/editText
+      find_type: id
+      operate_type: set_value
+      msg: zhaolm
+      info: 输入账号
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/editText2
+      find_type: id
+      operate_type: set_value
+      msg: zlm123456
+      info: 输入密码
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/button
+      find_type: id
+      operate_type: click
+      info: 点击提交按钮
+check:
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/tv_user_name
+      find_type: id
+      check: default_check
+      info: 登录成功
+

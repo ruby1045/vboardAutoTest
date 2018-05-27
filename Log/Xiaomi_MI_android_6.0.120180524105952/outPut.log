@@ -1,0 +1,11 @@
+2018-05-24 10:59:53,145  - INFO - ----  test005_加入不存在或错误的会议_com.smartcity.maxnerva.vborad_phone:id/idEt_set_value 1108        ----
+2018-05-24 10:59:59,743  - INFO - ----  test005_加入不存在或错误的会议_com.smartcity.maxnerva.vborad_phone:id/button_click          ----
+2018-05-24 11:00:00,647  - INFO - ----  test005_加入不存在或错误的会议_android.widget.TextView_get_value 会议号不存在(1012)        ----
+2018-05-24 11:00:00,905  - INFO - [CheckPoint_1]: test1WrongMeetingID_ : OK
+2018-05-24 11:00:01,041  - INFO - ----  test006_成功加入会议_com.smartcity.maxnerva.vborad_phone:id/idEt_set_value 8034        ----
+2018-05-24 11:00:07,149  - INFO - ----  test006_成功加入会议_com.smartcity.maxnerva.vborad_phone:id/button_click          ----
+2018-05-24 11:00:17,358  - INFO - ----  test006_成功加入会议_com.smartcity.maxnerva.vborad_phone:id/ivMeeting_click          ----
+2018-05-24 11:00:19,584  - INFO - ----  test006_成功加入会议_com.smartcity.maxnerva.vborad_phone:id/iv_exit_click          ----
+2018-05-24 11:00:24,984  - INFO - ----  test006_成功加入会议_com.smartcity.maxnerva.vborad_phone:id/btn_confirm_click          ----
+2018-05-24 11:00:27,546  - INFO - ----  test006_成功加入会议_com.smartcity.maxnerva.vborad_phone:id/button_           ----
+2018-05-24 11:00:27,700  - INFO - [CheckPoint_2]: test2MeetingSuccess_ : OK
