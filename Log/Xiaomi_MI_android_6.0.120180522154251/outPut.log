@@ -1,0 +1,24 @@
+2018-05-22 15:42:51,808  - INFO - ----  test002_测试账号错误时登录_com.smartcity.maxnerva.vborad_phone:id/editText_set_value vbooard        ----
+2018-05-22 15:42:57,892  - INFO - ----  test002_测试账号错误时登录_com.smartcity.maxnerva.vborad_phone:id/editText2_set_value zlm13367131368        ----
+2018-05-22 15:43:03,685  - INFO - ----  test002_测试账号错误时登录_com.smartcity.maxnerva.vborad_phone:id/button_click          ----
+2018-05-22 15:43:04,714  - INFO - ----  test002_测试账号错误时登录_com.smartcity.maxnerva.vborad_phone:id/textView2_get_value 帐号或密码错误，请重试或使用找回密码功能(1001)        ----
+2018-05-22 15:43:05,233  - INFO - [CheckPoint_1]: testLogin1WrongAccount_ : OK
+2018-05-22 15:43:05,278  - INFO - ----  test004_测试密码错误时登录_com.smartcity.maxnerva.vborad_phone:id/editText_set_value ruby        ----
+2018-05-22 15:43:11,760  - INFO - ----  test004_测试密码错误时登录_com.smartcity.maxnerva.vborad_phone:id/editText2_set_value vboard12345        ----
+2018-05-22 15:43:18,737  - INFO - ----  test004_测试密码错误时登录_com.smartcity.maxnerva.vborad_phone:id/button_click          ----
+2018-05-22 15:43:19,817  - INFO - ----  test004_测试密码错误时登录_com.smartcity.maxnerva.vborad_phone:id/textView2_get_value 帐号或密码错误，请重试或使用找回密码功能(1001)        ----
+2018-05-22 15:43:20,275  - INFO - [CheckPoint_2]: testLogin2WrongPassword_ : OK
+2018-05-22 15:43:20,296  - INFO - ----  test003_测试账号密码无输入时登录_com.smartcity.maxnerva.vborad_phone:id/editText_set_value          ----
+2018-05-22 15:43:26,907  - INFO - ----  test003_测试账号密码无输入时登录_com.smartcity.maxnerva.vborad_phone:id/editText2_set_value          ----
+2018-05-22 15:43:33,027  - INFO - ----  test003_测试账号密码无输入时登录_com.smartcity.maxnerva.vborad_phone:id/button_click          ----
+2018-05-22 15:43:33,891  - INFO - ----  test003_测试账号密码无输入时登录_com.smartcity.maxnerva.vborad_phone:id/button_           ----
+2018-05-22 15:43:34,335  - INFO - [CheckPoint_3]: testLogin3EmptyInput_ : OK
+2018-05-22 15:43:34,369  - INFO - ----  test001_测试登录成功_com.smartcity.maxnerva.vborad_phone:id/editText_set_value zhaolm        ----
+2018-05-22 15:43:40,924  - INFO - ----  test001_测试登录成功_com.smartcity.maxnerva.vborad_phone:id/editText2_set_value zlm123456        ----
+2018-05-22 15:43:48,025  - INFO - ----  test001_测试登录成功_com.smartcity.maxnerva.vborad_phone:id/button_click          ----
+2018-05-22 15:43:49,140  - INFO - ----  test001_测试登录成功_com.smartcity.maxnerva.vborad_phone:id/tv_user_name_           ----
+2018-05-22 15:43:49,506  - INFO - [CheckPoint_4]: testLogin4Pass_ : OK
+2018-05-22 15:44:06,207  - INFO - ----  test005_加入不存在或错误的会议_com.smartcity.maxnerva.vborad_phone:id/idEt_set_value 1108        ----
+2018-05-22 15:44:12,772  - INFO - ----  test005_加入不存在或错误的会议_com.smartcity.maxnerva.vborad_phone:id/button_click          ----
+2018-05-22 15:44:13,727  - INFO - ----  test005_加入不存在或错误的会议_android.widget.TextView_get_value 会议号不存在(1012)        ----
+2018-05-22 15:44:14,201  - INFO - [CheckPoint_5]: testWrongMeetingID_ : OK

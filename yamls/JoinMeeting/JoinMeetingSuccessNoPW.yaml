@@ -1,0 +1,41 @@
+testinfo:
+    - id: test007
+      title: 成功加入一个有密码的会议
+      info: 打开加入会议界面
+testcase:
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/idEt
+      find_type: id
+      operate_type: set_value
+      msg: " "
+      info: 输入会议ID
+      #输入密码的步骤
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/idEt
+      find_type: id
+      operate_type: set_value
+      msg: " "
+      info: 输入会议ID
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/button
+      find_type: id
+      operate_type: click
+      is_time: 10
+      info: 点击加入会议按钮
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/ivMeeting
+      find_type: id
+      operate_type: click
+      is_time: 2
+      info: 点击会议成员按钮
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/iv_exit
+      find_type: id
+      operate_type: click
+      is_time: 1
+      info: 点击退出会议按钮
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/btn_confirm
+      find_type: id
+      operate_type: click
+      is_time: 2
+      info: 点击确定离开会议按钮
+check:
+    - element_info: com.smartcity.maxnerva.vborad_phone:id/button
+      find_type: id
+      check: default_check
+      info: 检查加入会议按钮是否存在
